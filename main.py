@@ -3,6 +3,7 @@ from commands.cmd_brigthness import cmd_brightness
 from commands.cmd_help import cmd_help
 from commands.cmd_contrast import cmd_contrast
 from commands.cmd_negative import cmd_negative
+from commands.cmd_horizontal_flip import cmd_horizontal_flip
 
 
 COMMANDS = {
@@ -10,6 +11,7 @@ COMMANDS = {
         "--brightness" : cmd_brightness,
         "--contrast" : cmd_contrast,
         "--negative" : cmd_negative,
+        "--horizontal" : cmd_horizontal_flip
     }
 
 def usage() -> None:
