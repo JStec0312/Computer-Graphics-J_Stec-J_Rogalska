@@ -1,10 +1,15 @@
 import sys
 from commands.cmd_brigthness import cmd_brightness
 from commands.cmd_help import cmd_help
+from commands.cmd_contrast import cmd_contrast
+from commands.cmd_negative import cmd_negative
+
 
 COMMANDS = {
         "--help" : cmd_help,
         "--brightness" : cmd_brightness,
+        "--contrast" : cmd_contrast,
+        "--negative" : cmd_negative,
     }
 
 def usage() -> None:
