@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "debug cmd_brigthness.py",
+            "request": "launch",
+            "justMyCode": false,
+            "args": [],
+            "program": "c:\\Users\\stecu\\OneDrive\\Pulpit\\Notatki\\Semestr VI\\Image Processing\\Zad 1\\commands\\cmd_brigthness.py"
+        }
+    ]
+}
